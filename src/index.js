@@ -4,7 +4,7 @@ import { generateRouter } from './generateRouter'
 /*
 * 检测必要的文件目录
 * */
-const ruleFolderList = ['Api', 'Components', 'controllers', 'Pages', 'Servers', 'Ui']
+const ruleFolderList = ['Api', 'Components', 'Controllers', 'Pages', 'Servers', 'Ui']
 checkMustFolderList(ruleFolderList, 'src')
 
 /*

@@ -1,6 +1,6 @@
 {
   "name": "weagreed-alpha",
-  "version": "0.0.3",
+  "version": "0.0.9",
   "description": "project directory management for vue/cli",
   "main": "dist/weagreed.common.js",
   "module": "dist/weagreed.esm.js",

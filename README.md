@@ -50,8 +50,8 @@ npm install weagreed-alpha --save-dev
 #### Components
 #### controllers
 #### Pages
-    Pages 文件夹下的第一层文件夹视为一级路由(controller文件夹除外),
-    子文件夹视为二级路由,以此类推,文件夹下的index.vue作为controller的入口,
-    文件夹下的routeConfig.json作为路由配置入口
+    Pages 文件夹下的第一层文件夹视为一级路由('children', 'compose'文件夹除外),
+    children 文件夹视为二级路由,以此类推,文件夹下的index.vue作为路由的入口,
+    文件夹下的index.vue的 ` 最后一项配置 ` 为routeConfig字段，它作为路由配置入口
 #### Servers
 #### Ui
